@@ -53,9 +53,9 @@ def generar_problema_88_10():
                 print(f"El número buscado es: {x} - Problema10.py:59")
                 print()
                 print("Comprobación: - Problema10.py:61")
-                print(f"Primera operación: ({x}  {resta1}) × {mult1} = {xresta1} × {mult1} = {(xresta1)*mult1} - Problema10.py:62")
-                print(f"Segunda operación: ({x}  {resta2}) × {mult2} = {xresta2} × {mult2} = {(xresta2)*mult2} - Problema10.py:63")
-                print(f"Ambas son iguales: {(xresta1)*mult1} = {(xresta2)*mult2} ✓ - Problema10.py:64")
+                print(f"Primera operación: ({x}  {resta1}) × {mult1} = X{resta1} × {mult1} = X{(resta1)*mult1} - Problema10.py:62")
+                print(f"Segunda operación: ({x}  {resta2}) × {mult2} = X{resta2} × {mult2} = X{(resta2)*mult2} - Problema10.py:63")
+                print(f"Ambas son iguales: {(resta1)*mult1} = {(resta2)*mult2} ✓ - Problema10.py:64")
                 return
                 
         intentos += 1
